@@ -1,12 +1,16 @@
 import React from 'react';
-import {View} from 'react-native';
+import {View, Text} from 'react-native';
 
 import { styles } from './styles'
 
 const Header: React.FC = () => {
 
     return (
-        <View>
+        <View style={styles.container}>
+            <Text style={styles.title}>Categorias</Text>
+
+            <Text style={styles.subtitle}>Define a sequênciade bandas {'\n'} que você mais gosta</Text>
+
 
         </View>
     );

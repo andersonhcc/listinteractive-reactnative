@@ -1,12 +1,19 @@
 import React from 'react';
-import {View, ScrollView} from 'react-native';
+import {View, ScrollView, SafeAreaView, StatusBar} from 'react-native';
 import { CardList } from '../../components/CardList';
 import {CARDS} from '../../utils/cards'
 import {styles} from './styles';
+import { Header } from '../../components/Header';
 
 const Home: React.FC = () => {
     return (
-        <View>
+        <SafeAreaView style={styles.container}>
+
+            <StatusBar barStyle='light-content'/>
+
+        <View style={styles.container}>
+
+            <Header />
 
         <ScrollView
             style={styles.scroll}
@@ -25,6 +32,8 @@ const Home: React.FC = () => {
         </ScrollView>
 
         </View>
+        </SafeAreaView>
+
     );
 
 };
