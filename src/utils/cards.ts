@@ -1,5 +1,4 @@
 export const CARDS = [
-    {id: 1, title: 'Led Zeppelin'},
     {id: 2, title: 'Queen'},
     {id: 3, title: 'The Beatles'},
     {id: 4, title: 'AC/DC'},

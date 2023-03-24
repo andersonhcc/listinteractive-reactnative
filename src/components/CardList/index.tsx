@@ -1,8 +1,10 @@
 import React from 'react';
 import { View, Text} from 'react-native';
-import { styles } from './styles'
 import {MaterialIcons} from '@expo/vector-icons'
 import { PropsCardList } from './types';
+import { HEIGHT, MARGIN_BOTTOM, styles } from './styles';
+
+export const CARD_HEIGHT = HEIGHT + MARGIN_BOTTOM;
 
 const CardList = ({data} : PropsCardList) => {
 

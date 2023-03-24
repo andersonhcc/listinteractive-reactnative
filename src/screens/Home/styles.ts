@@ -9,6 +9,6 @@ export const styles = StyleSheet.create({
     scroll:{
         flex: 1,
         padding: 32,
-        
+        position: 'relative',
     }
 })
