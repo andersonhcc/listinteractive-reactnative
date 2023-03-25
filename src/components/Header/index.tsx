@@ -9,7 +9,7 @@ const Header: React.FC = () => {
         <View style={styles.container}>
             <Text style={styles.title}>Categorias</Text>
 
-            <Text style={styles.subtitle}>Define a sequênciade bandas {'\n'} que você mais gosta</Text>
+            <Text style={styles.subtitle}>Define a sequênciade bandas que você mais gosta</Text>
 
 
         </View>

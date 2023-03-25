@@ -43,7 +43,7 @@ const Home: React.FC = () => {
 
         <Animated.ScrollView
             style={styles.scroll}
-            contentContainerStyle={{height: CARDS.length * CARD_HEIGHT, paddingHorizontal: 50}}
+            contentContainerStyle={{height: CARDS.length * CARD_HEIGHT}}
             showsVerticalScrollIndicator={false}
             onScroll={handleScroll}
             scrollEventThrottle={16}
